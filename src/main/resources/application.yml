@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: MyService
+MyService:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: server-host:10073,server-host:10072,server-host:10071,server-host:10070
